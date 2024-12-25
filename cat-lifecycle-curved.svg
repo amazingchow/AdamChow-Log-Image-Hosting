@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF5E6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFE4E1;stop-opacity:1" />
+    </linearGradient>
+    <!-- Cat paw pattern -->
+    <pattern id="pawPrint" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="15" cy="15" r="2" fill="#FF9999" opacity="0.2"/>
+      <circle cx="20" cy="12" r="1.5" fill="#FF9999" opacity="0.2"/>
+      <circle cx="10" cy="12" r="1.5" fill="#FF9999" opacity="0.2"/>
+      <circle cx="12" cy="8" r="1.5" fill="#FF9999" opacity="0.2"/>
+      <circle cx="18" cy="8" r="1.5" fill="#FF9999" opacity="0.2"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#bgGradient)" />
+  <rect width="800" height="500" fill="url(#pawPrint)" />
+  
+  <!-- Title and subtitle -->
+  <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#BC8F8F">喵星人的一生</text>
+  <text x="400" y="70" text-anchor="middle" font-size="14" fill="#BC8F8F">你知道吗？猫咪能听到20-65,000赫兹的声音，是人类听觉范围的三倍</text>
+  
+  <!-- Curved Timeline -->
+  <path d="M50,400 Q400,350 750,200" stroke="#BC8F8F" stroke-width="2" fill="none"/>
+  
+  <!-- Life stages -->
+  <g id="stages">
+    <!-- Kitten -->
+    <circle cx="100" cy="380" r="30" fill="#FFB6C1" opacity="0.8" />
+    <text x="100" y="385" text-anchor="middle" fill="white" font-size="20">🐱</text>
+    <text x="100" y="340" text-anchor="middle" fill="#BC8F8F" font-size="12">幼猫期</text>
+    
+    <!-- Junior -->
+    <circle cx="250" cy="350" r="30" fill="#FFB6C1" opacity="0.8" />
+    <text x="250" y="355" text-anchor="middle" fill="white" font-size="20">😺</text>
+    <text x="250" y="310" text-anchor="middle" fill="#BC8F8F" font-size="12">成长期</text>
+    
+    <!-- Young Adult -->
+    <circle cx="400" cy="300" r="30" fill="#FFB6C1" opacity="0.8" />
+    <text x="400" y="305" text-anchor="middle" fill="white" font-size="20">🐈</text>
+    <text x="400" y="260" text-anchor="middle" fill="#BC8F8F" font-size="12">青年期</text>
+    
+    <!-- Adult -->
+    <circle cx="550" cy="250" r="30" fill="#FFB6C1" opacity="0.8" />
+    <text x="550" y="255" text-anchor="middle" fill="white" font-size="20">😸</text>
+    <text x="550" y="210" text-anchor="middle" fill="#BC8F8F" font-size="12">成年期</text>
+    
+    <!-- Senior -->
+    <circle cx="700" cy="200" r="30" fill="#FFB6C1" opacity="0.8" />
+    <text x="700" y="205" text-anchor="middle" fill="white" font-size="20">🐈</text>
+    <text x="700" y="160" text-anchor="middle" fill="#BC8F8F" font-size="12">老年期</text>
+  </g>
+  
+  <!-- Timeline labels -->
+  <text x="100" y="430" text-anchor="middle" fill="#BC8F8F" font-size="12">0-2月</text>
+  <text x="250" y="400" text-anchor="middle" fill="#BC8F8F" font-size="12">2-6月</text>
+  <text x="400" y="350" text-anchor="middle" fill="#BC8F8F" font-size="12">6-24月</text>
+  <text x="550" y="300" text-anchor="middle" fill="#BC8F8F" font-size="12">2-10岁</text>
+  <text x="700" y="250" text-anchor="middle" fill="#BC8F8F" font-size="12">10岁以上</text>
+  
+  <!-- Facts - adjusted positions -->
+  <text x="100" y="450" text-anchor="middle" font-size="10" fill="#BC8F8F">睁眼、学走路、断奶</text>
+  <text x="250" y="420" text-anchor="middle" font-size="10" fill="#BC8F8F">学习捕食、独立生活</text>
+  <text x="400" y="370" text-anchor="middle" font-size="10" fill="#BC8F8F">性格定型、领地意识</text>
+  <text x="550" y="320" text-anchor="middle" font-size="10" fill="#BC8F8F">身体机能最佳</text>
+  <text x="700" y="270" text-anchor="middle" font-size="10" fill="#BC8F8F">需要更多关爱</text>
+  
+  <!-- Decorative elements - adjusted for new layout -->
+  <text x="50" y="200" font-size="20">🐟</text>
+  <text x="750" y="100" font-size="20">🧶</text>
+  <text x="400" y="100" font-size="20">❤️</text>
+  <text x="200" y="150" font-size="20">🐠</text>
+</svg>
