@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 800">
+  <!-- Background -->
+  <rect width="400" height="800" fill="#f5f5f5"/>
+  
+  <!-- Chat header -->
+  <rect x="0" y="0" width="400" height="50" fill="#4a4a4a"/>
+  <text x="200" y="33" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">第一性原理探讨 (4人)</text>
+
+  <!-- 马斯克 1 -->
+  <circle cx="30" cy="90" r="20" fill="#cccccc"/>
+  <text x="30" y="96" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">马</text>
+  <text x="60" y="85" font-family="Arial, sans-serif" font-size="12" fill="#888888">埃隆·马斯克</text>
+  <rect x="60" y="90" width="320" height="40" rx="5" ry="5" fill="#ffffff"/>
+  <text x="70" y="115" font-family="Arial, sans-serif" font-size="14" fill="#333333">让我们谈谈第一性原理思维方式</text>
+
+  <!-- 用户 1 -->
+  <circle cx="30" cy="160" r="20" fill="#cccccc"/>
+  <text x="30" y="166" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">我</text>
+  <text x="60" y="155" font-family="Arial, sans-serif" font-size="12" fill="#888888">我</text>
+  <rect x="60" y="160" width="320" height="40" rx="5" ry="5" fill="#95ec69"/>
+  <text x="70" y="185" font-family="Arial, sans-serif" font-size="14" fill="#333333">这是一种什么样的思维方式？</text>
+
+  <!-- 马斯克 2 -->
+  <circle cx="30" cy="230" r="20" fill="#cccccc"/>
+  <text x="30" y="236" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">马</text>
+  <text x="60" y="225" font-family="Arial, sans-serif" font-size="12" fill="#888888">埃隆·马斯克</text>
+  <rect x="60" y="230" width="320" height="40" rx="5" ry="5" fill="#ffffff"/>
+  <text x="70" y="255" font-family="Arial, sans-serif" font-size="14" fill="#333333">回到问题的本质，抛开所有既有假设</text>
+
+  <!-- 雷军 1 -->
+  <circle cx="30" cy="300" r="20" fill="#cccccc"/>
+  <text x="30" y="306" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">雷</text>
+  <text x="60" y="295" font-family="Arial, sans-serif" font-size="12" fill="#888888">雷军</text>
+  <rect x="60" y="300" width="320" height="40" rx="5" ry="5" fill="#ffffff"/>
+  <text x="70" y="325" font-family="Arial, sans-serif" font-size="14" fill="#333333">就像我们重新思考手机的价值定义</text>
+
+  <!-- 比尔 1 -->
+  <circle cx="30" cy="370" r="20" fill="#cccccc"/>
+  <text x="30" y="376" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">比</text>
+  <text x="60" y="365" font-family="Arial, sans-serif" font-size="12" fill="#888888">比尔·盖茨</text>
+  <rect x="60" y="370" width="320" height="40" rx="5" ry="5" fill="#ffffff"/>
+  <text x="70" y="395" font-family="Arial, sans-serif" font-size="14" fill="#333333">微软早期就是从计算机的本质需求出发</text>
+
+  <!-- 马斯克 3 -->
+  <circle cx="30" cy="440" r="20" fill="#cccccc"/>
+  <text x="30" y="446" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">马</text>
+  <text x="60" y="435" font-family="Arial, sans-serif" font-size="12" fill="#888888">埃隆·马斯克</text>
+  <rect x="60" y="440" width="320" height="40" rx="5" ry="5" fill="#ffffff"/>
+  <text x="70" y="465" font-family="Arial, sans-serif" font-size="14" fill="#333333">特斯拉就是重新思考了电动车的制造方式</text>
+
+  <!-- 雷军 2 -->
+  <circle cx="30" cy="510" r="20" fill="#cccccc"/>
+  <text x="30" y="516" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">雷</text>
+  <text x="60" y="505" font-family="Arial, sans-serif" font-size="12" fill="#888888">雷军</text>
+  <rect x="60" y="510" width="320" height="40" rx="5" ry="5" fill="#ffffff"/>
+  <text x="70" y="535" font-family="Arial, sans-serif" font-size="14" fill="#333333">互联网思维本质上也是第一性原理的体现</text>
+
+  <!-- 用户 2 -->
+  <circle cx="30" cy="580" r="20" fill="#cccccc"/>
+  <text x="30" y="586" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">我</text>
+  <text x="60" y="575" font-family="Arial, sans-serif" font-size="12" fill="#888888">我</text>
+  <rect x="60" y="580" width="320" height="40" rx="5" ry="5" fill="#95ec69"/>
+  <text x="70" y="605" font-family="Arial, sans-serif" font-size="14" fill="#333333">原来创新的关键是敢于挑战现有认知</text>
+
+  <!-- Input area -->
+  <rect x="0" y="750" width="400" height="50" fill="white"/>
+  <circle cx="30" cy="775" r="15" fill="none" stroke="#cccccc" stroke-width="2"/>
+  <path d="M30 767 Q38 775 30 783 M30 770 Q35 775 30 780 M30 773 Q32 775 30 777" fill="none" stroke="#cccccc" stroke-width="2"/>
+  <rect x="55" y="760" width="260" height="30" rx="5" ry="5" fill="white" stroke="#cccccc"/>
+  <text x="65" y="780" font-family="Arial, sans-serif" font-size="14" fill="#888888">输入消息...</text>
+  <circle cx="340" cy="775" r="15" fill="none" stroke="#cccccc" stroke-width="2"/>
+  <path d="M334 775 A 6 6 0 0 0 346 775" fill="none" stroke="#cccccc" stroke-width="2"/>
+  <circle cx="336" cy="772" r="1" fill="#cccccc"/>
+  <circle cx="344" cy="772" r="1" fill="#cccccc"/>
+  <circle cx="375" cy="775" r="15" fill="none" stroke="#cccccc" stroke-width="2"/>
+  <line x1="367" y1="775" x2="383" y2="775" stroke="#cccccc" stroke-width="2"/>
+  <line x1="375" y1="767" x2="375" y2="783" stroke="#cccccc" stroke-width="2"/>
+</svg>

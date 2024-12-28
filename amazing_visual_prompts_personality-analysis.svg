@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <defs>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&amp;display=swap');</style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="1000" fill="#ffffff"/>
+  
+  <!-- Main Circles -->
+  <circle cx="280" cy="380" r="180" fill="#B5D6F4" opacity="0.3"/>
+  <circle cx="520" cy="620" r="180" fill="#C8F7C5" opacity="0.3"/>
+  <circle cx="280" cy="620" r="180" fill="#FFCCCB" opacity="0.3"/>
+  
+  <!-- Center Intersection -->
+  <circle cx="400" cy="500" r="100" fill="#FFF2CC" opacity="0.3"/>
+  
+  <!-- Title -->
+  <text x="400" y="80" font-family="'Noto Sans SC', sans-serif" font-size="40" fill="#333333" text-anchor="middle" font-weight="bold">命理分析</text>
+  
+  <!-- Leo Traits -->
+  <g font-family="'Noto Sans SC', sans-serif">
+    <text x="280" y="350" font-size="28" fill="#333333" text-anchor="middle" font-weight="bold">狮子座</text>
+    <text x="280" y="390" font-size="18" fill="#333333" text-anchor="middle">热情奔放 领导气质</text>
+    <text x="280" y="420" font-size="18" fill="#333333" text-anchor="middle">慷慨大方 创造力强</text>
+  </g>
+  
+  <!-- Monkey Traits -->
+  <g font-family="'Noto Sans SC', sans-serif">
+    <text x="280" y="590" font-size="28" fill="#333333" text-anchor="middle" font-weight="bold">属猴</text>
+    <text x="280" y="630" font-size="18" fill="#333333" text-anchor="middle">聪明机智 活跃灵动</text>
+    <text x="280" y="660" font-size="18" fill="#333333" text-anchor="middle">善于交际 创新精神</text>
+  </g>
+  
+  <!-- Blood Type O Traits -->
+  <g font-family="'Noto Sans SC', sans-serif">
+    <text x="520" y="590" font-size="28" fill="#333333" text-anchor="middle" font-weight="bold">O型血</text>
+    <text x="520" y="630" font-size="18" fill="#333333" text-anchor="middle">意志坚强 独立自主</text>
+    <text x="520" y="660" font-size="18" fill="#333333" text-anchor="middle">领袖气质 直率真诚</text>
+  </g>
+  
+  <!-- Core Traits -->
+  <g font-family="'Noto Sans SC', sans-serif">
+    <text x="400" y="480" font-size="24" fill="#333333" text-anchor="middle" font-weight="bold">核心特质</text>
+    <text x="400" y="520" font-size="20" fill="#333333" text-anchor="middle">天生领袖者</text>
+    <text x="400" y="550" font-size="20" fill="#333333" text-anchor="middle">创新开拓者</text>
+  </g>
+  
+  <!-- Fortune Text -->
+  <g font-family="'Noto Sans SC', sans-serif">
+    <text x="400" y="820" font-size="24" fill="#333333" text-anchor="middle">
+      <tspan x="400" dy="0">凭借与生俱来的领导才能和创新精神，</tspan>
+      <tspan x="400" dy="35">2024年将在事业上获得重要突破。</tspan>
+    </text>
+  </g>
+  
+  <!-- Decorative Icons -->
+  <text x="70" y="70" font-family="'Noto Sans SC', sans-serif" font-size="40" fill="#B5D6F4">♌</text>
+  <text x="730" y="930" font-family="'Noto Sans SC', sans-serif" font-size="40" fill="#C8F7C5">🩸</text>
+  <text x="70" y="930" font-family="'Noto Sans SC', sans-serif" font-size="40" fill="#FFCCCB">🐒</text>
+</svg>

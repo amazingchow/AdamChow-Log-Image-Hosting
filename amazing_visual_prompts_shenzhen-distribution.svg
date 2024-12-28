@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+    <!-- 背景 -->
+    <rect width="1000" height="1000" fill="#f8f8f8"/>
+    
+    <!-- 深圳湾海岸线 -->
+    <path d="M200,600 Q400,650 600,600 Q800,550 950,600" 
+          fill="none" 
+          stroke="#d0d0d0" 
+          stroke-width="2"/>
+    
+    <!-- 标题 -->
+    <text x="500" y="50" 
+          font-size="28" 
+          font-weight="bold" 
+          text-anchor="middle" 
+          fill="#333">深圳区域分布图</text>
+    
+    <!-- 坐标线 -->
+    <g stroke="#d0d0d0" stroke-width="1">
+        <line x1="500" y1="80" x2="500" y2="980"/>
+        <line x1="50" y1="530" x2="950" y2="530"/>
+    </g>
+    
+    <!-- 方位指示 -->
+    <g font-size="18" font-weight="bold" fill="#888">
+        <text x="500" y="100" text-anchor="middle">北</text>
+        <text x="500" y="970" text-anchor="middle">南</text>
+        <text x="70" y="535" text-anchor="start">西</text>
+        <text x="930" y="535" text-anchor="end">东</text>
+    </g>
+    
+    <!-- 区域标记 -->
+    <g font-size="13">
+        <!-- 福田 -->
+        <circle cx="500" cy="530" r="5" fill="#e74c3c"/>
+        <text x="508" y="526" font-weight="bold" fill="#333">福田</text>
+        <text x="508" y="542" fill="#666">CBD商务中心</text>
+        
+        <!-- 南山 -->
+        <circle cx="400" cy="580" r="5" fill="#3498db"/>
+        <text x="408" y="576" font-weight="bold" fill="#333">南山</text>
+        <text x="408" y="592" fill="#666">科技创新区</text>
+        
+        <!-- 罗湖 -->
+        <circle cx="600" cy="530" r="5" fill="#2ecc71"/>
+        <text x="608" y="526" font-weight="bold" fill="#333">罗湖</text>
+        <text x="608" y="542" fill="#666">商贸口岸</text>
+        
+        <!-- 宝安 -->
+        <circle cx="300" cy="480" r="5" fill="#9b59b6"/>
+        <text x="308" y="476" font-weight="bold" fill="#333">宝安</text>
+        <text x="308" y="492" fill="#666">产业基地</text>
+        
+        <!-- 龙岗 -->
+        <circle cx="700" cy="430" r="5" fill="#e67e22"/>
+        <text x="708" y="426" font-weight="bold" fill="#333">龙岗</text>
+        <text x="708" y="442" fill="#666">制造业基地</text>
+        
+        <!-- 光明 -->
+        <circle cx="350" cy="380" r="5" fill="#1abc9c"/>
+        <text x="358" y="376" font-weight="bold" fill="#333">光明</text>
+        <text x="358" y="392" fill="#666">科教新城</text>
+        
+        <!-- 坪山 -->
+        <circle cx="800" cy="380" r="5" fill="#f1c40f"/>
+        <text x="808" y="376" font-weight="bold" fill="#333">坪山</text>
+        <text x="808" y="392" fill="#666">新能源产业</text>
+        
+        <!-- 盐田 -->
+        <circle cx="700" cy="580" r="5" fill="#16a085"/>
+        <text x="708" y="576" font-weight="bold" fill="#333">盐田</text>
+        <text x="708" y="592" fill="#666">港口物流</text>
+    </g>
+</svg>
