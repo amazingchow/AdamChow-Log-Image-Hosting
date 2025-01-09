@@ -1,0 +1,30 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 坐标轴 -->
+    <line x1="50" y1="450" x2="750" y2="450" stroke="black" stroke-width="2"/>
+    <line x1="50" y1="450" x2="50" y2="50" stroke="black" stroke-width="2"/>
+    
+    <!-- X轴标签 -->
+    <text x="400" y="480" text-anchor="middle">SOL 数量</text>
+    
+    <!-- Y轴标签 -->
+    <text x="30" y="250" transform="rotate(-90,30,250)" text-anchor="middle">USDC 价格</text>
+    
+    <!-- 价格区间标记 -->
+    <line x1="50" y1="350" x2="750" y2="350" stroke="#ddd" stroke-width="1" stroke-dasharray="5,5"/>
+    <text x="30" y="355" fill="gray">105</text>
+    
+    <line x1="50" y1="150" x2="750" y2="150" stroke="#ddd" stroke-width="1" stroke-dasharray="5,5"/>
+    <text x="30" y="155" fill="gray">95</text>
+    
+    <!-- 实际流动性区域 -->
+    <path d="M 150 350 L 650 350 L 650 150 L 150 150 Z" fill="rgba(0,255,0,0.1)" stroke="green" stroke-width="2"/>
+    <text x="400" y="250" text-anchor="middle" fill="green">集中流动性区域</text>
+    
+    <!-- 价格曲线 -->
+    <path d="M 50 400 Q 400 250 750 100" stroke="blue" fill="none" stroke-width="2"/>
+    
+    <!-- 虚拟储备说明 -->
+    <text x="200" y="100" fill="red">虚拟储备区域</text>
+    <path d="M 50 150 L 150 150 L 150 350 L 50 350 Z" fill="rgba(255,0,0,0.1)" stroke="red" stroke-width="1"/>
+    <path d="M 650 150 L 750 150 L 750 350 L 650 350 Z" fill="rgba(255,0,0,0.1)" stroke="red" stroke-width="1"/>
+</svg>
