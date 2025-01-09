@@ -1,0 +1,33 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 坐标轴 -->
+    <line x1="50" y1="450" x2="750" y2="450" stroke="black" stroke-width="2"/>
+    <line x1="50" y1="450" x2="50" y2="50" stroke="black" stroke-width="2"/>
+    
+    <!-- X轴标签 -->
+    <text x="400" y="480" text-anchor="middle">价格搜索次数</text>
+    
+    <!-- Y轴标签 -->
+    <text x="30" y="250" transform="rotate(-90,30,250)" text-anchor="middle">价格 (USDC)</text>
+    
+    <!-- 初始价格线 -->
+    <line x1="50" y1="150" x2="750" y2="150" stroke="#ddd" stroke-width="1" stroke-dasharray="5,5"/>
+    <text x="30" y="155" fill="gray">100</text>
+    
+    <!-- 价格搜索过程 -->
+    <path d="M 50 150 L 150 200 L 250 175 L 350 185 L 450 180 L 550 182 L 650 181" 
+          stroke="blue" fill="none" stroke-width="2"/>
+    
+    <!-- 搜索点 -->
+    <circle cx="150" cy="200" r="4" fill="red"/>
+    <circle cx="250" cy="175" r="4" fill="red"/>
+    <circle cx="350" cy="185" r="4" fill="red"/>
+    <circle cx="450" cy="180" r="4" fill="red"/>
+    <circle cx="550" cy="182" r="4" fill="red"/>
+    <circle cx="650" cy="181" r="4" fill="red"/>
+    
+    <!-- 说明文字 -->
+    <text x="150" y="220" fill="red" text-anchor="middle">第一次尝试</text>
+    <text x="250" y="195" fill="red" text-anchor="middle">第二次尝试</text>
+    <text x="350" y="205" fill="red" text-anchor="middle">第三次尝试</text>
+    <text x="650" y="201" fill="red" text-anchor="middle">最终价格</text>
+</svg>
