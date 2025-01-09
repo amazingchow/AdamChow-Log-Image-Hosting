@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+    <!-- 定义渐变和滤镜 -->
+    <defs>
+        <!-- 图表网格渐变 -->
+        <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#f0f0f0" stroke-width="0.5"/>
+        </pattern>
+        <!-- 文字阴影效果 -->
+        <filter id="shadow" x="-2" y="-2" width="104%" height="104%">
+            <feOffset result="offOut" in="SourceAlpha" dx="2" dy="2"/>
+            <feGaussianBlur result="blurOut" in="offOut" stdDeviation="2"/>
+            <feBlend in="SourceGraphic" in2="blurOut" mode="normal"/>
+        </filter>
+    </defs>
+
+    <!-- 背景和边框 -->
+    <rect x="50" y="50" width="700" height="500" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <rect x="50" y="50" width="700" height="500" fill="url(#grid)"/>
+
+    <!-- 坐标轴 -->
+    <line x1="50" y1="550" x2="750" y2="550" stroke="black" stroke-width="1"/>
+    <line x1="50" y1="50" x2="50" y2="550" stroke="black" stroke-width="1"/>
+
+    <!-- CPMM曲线 (y = 1/x) -->
+    <path d="M 50 100 
+             C 150 150, 250 250, 400 300
+             C 550 350, 650 450, 750 500"
+          fill="none" stroke="#6366F1" stroke-width="2"/>
+
+    <!-- CLMM曲线 (在1.0附近更陡峭) -->
+    <path d="M 50 80
+             C 200 150, 350 250, 400 300
+             C 450 350, 600 450, 750 520"
+          fill="none" stroke="#10B981" stroke-width="2"/>
+
+    <!-- DLMM曲线 (综合特性) -->
+    <path d="M 50 90
+             C 180 160, 320 260, 400 300
+             C 480 340, 620 440, 750 510"
+          fill="none" stroke="#F59E0B" stroke-width="2"/>
+
+    <!-- 参考线 -->
+    <line x1="50" y1="300" x2="750" y2="300" stroke="#666" stroke-width="1" stroke-dasharray="5,5"/>
+    <line x1="400" y1="50" x2="400" y2="550" stroke="#666" stroke-width="1" stroke-dasharray="5,5"/>
+
+    <!-- 坐标轴刻度和标签 -->
+    <!-- X轴刻度 -->
+    <g font-size="12" text-anchor="middle">
+        <text x="50" y="570">0</text>
+        <text x="225" y="570">0.5</text>
+        <text x="400" y="570">1.0</text>
+        <text x="575" y="570">1.5</text>
+        <text x="750" y="570">2.0</text>
+    </g>
+
+    <!-- Y轴刻度 -->
+    <g font-size="12" text-anchor="end">
+        <text x="40" y="550">0</text>
+        <text x="40" y="425">1.0</text>
+        <text x="40" y="300">2.0</text>
+        <text x="40" y="175">3.0</text>
+        <text x="40" y="50">4.0</text>
+    </g>
+
+    <!-- 轴标签 -->
+    <text x="400" y="590" text-anchor="middle" font-size="14">代币储备比率 (x/y)</text>
+    <text x="20" y="300" text-anchor="middle" font-size="14" transform="rotate(-90, 20, 300)">相对价格</text>
+
+    <!-- 图例 -->
+    <g transform="translate(550, 100)">
+        <rect width="180" height="120" fill="white" stroke="#e5e7eb" rx="5"/>
+        <!-- CPMM -->
+        <line x1="10" y1="20" x2="30" y2="20" stroke="#6366F1" stroke-width="2"/>
+        <text x="40" y="25" font-size="12">恒定乘积 (CPMM)</text>
+        <text x="40" y="40" font-size="10" fill="#666">最平滑的价格变化</text>
+        <!-- CLMM -->
+        <line x1="10" y1="60" x2="30" y2="60" stroke="#10B981" stroke-width="2"/>
+        <text x="40" y="65" font-size="12">集中流动性 (CLMM)</text>
+        <text x="40" y="80" font-size="10" fill="#666">目标区间更陡峭</text>
+        <!-- DLMM -->
+        <line x1="10" y1="100" x2="30" y2="100" stroke="#F59E0B" stroke-width="2"/>
+        <text x="40" y="105" font-size="12">动态流动性 (DLMM)</text>
+        <text x="40" y="120" font-size="10" fill="#666">平衡区间适中变化</text>
+    </g>
+
+    <!-- 标题 -->
+    <text x="400" y="30" text-anchor="middle" font-size="18" font-weight="bold" filter="url(#shadow)">
+        自动做市商（AMM）价格曲线对比
+    </text>
+</svg>
